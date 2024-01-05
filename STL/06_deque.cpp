@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void deque()
+void explainDeque()
 {
     deque<int>dq; // Make an empty array
     dq.push_back(1); // {1}
