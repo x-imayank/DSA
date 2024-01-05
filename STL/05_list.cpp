@@ -10,7 +10,8 @@ void main()
     ls.emplace_back(6); // {2,3}
 
     ls.push_front(3); // {3,2,6}
-    ls.emplace_front(); //{2,6}
+    ls.emplace_front(9); //{9,3,2,6}
 
     // rest all the functions are same as vector.
+    // begin, end, rend, rbegin, clear, insert, size, swap.
 }
