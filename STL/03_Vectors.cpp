@@ -13,15 +13,17 @@ void explainVectors()
     // Vector Pair
     vector<pair<int, int>> vec;
 
-    v.push_back({1, 2});
+    v.push_back({1, 2}); // It automatically makes a pair.
     v.emplace_back(1,2);
-
+    
 
     vector<int> v(5,100); //(100,100,100,100,100)
     vector<int> v(5); // Empty container. (0,0,0,0,0)
 
     vector<int> v1(5,20); // If we wants to increase its size then we use push_back() it increases its size by 1.
     vector<int> v2(v1); //Copy of v1.
+
+    
 
 }
 
