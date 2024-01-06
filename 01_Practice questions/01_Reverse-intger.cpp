@@ -16,7 +16,7 @@ int reverseInt(int n)
 
 int main()
 {
-    int n;
+    int n; // eg. 00431 it returns 134 because it disnt include 00.
     cout << "Enter your numbers: ";
     cin >> n;
 

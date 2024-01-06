@@ -3,7 +3,7 @@ using namespace std;
 
 int count_num(int n)
 {
-    int x, count = 0;
+    int count = 0;
     while (n != 0)
     {
         int last = n % 10;
@@ -15,7 +15,7 @@ int count_num(int n)
 
 int main()
 {
-    int x = 123;
+    int x = 1276;
     count_num(x);
 
     return 0;
