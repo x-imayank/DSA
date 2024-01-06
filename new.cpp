@@ -3,15 +3,16 @@ using namespace std;
 
 int main()
 {
-    stack<int> st;
+    int n;
+    cin >> n;
+    int rev = 0;
 
-    st.push(1);    //{1}
-    st.push(2);    //{2,1}
-    st.push(3);    //{3,2,1}
-    st.emplace(5); //{5,3,2,1}
-    int i;
-    for (i = st.top(); i < st.size(); i++)
+    // int w = n / 10;
+    while (n > 0)
     {
-        cout << i;
+        int ld = n % 10; // 789 % 10 = 9
+        rev = (rev * 10) + ld;
+        n = n / 10; // eg:- 789 / 10 = 78.9
     }
+    cout << rev;
 }
