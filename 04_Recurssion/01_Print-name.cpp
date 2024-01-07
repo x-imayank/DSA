@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// Print name using recursion 5 times.
+// TC -> O(n).
+// SC -> O(n).
 void name(int i, int n)
 {
     if (i > n)
