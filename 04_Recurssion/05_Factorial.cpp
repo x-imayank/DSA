@@ -9,7 +9,8 @@ void binary(int n)
         return;
     }
 
-    binary(n + 1);
+
+    binary(n + 1); 
 }
 
 int main()
