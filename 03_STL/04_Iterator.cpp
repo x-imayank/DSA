@@ -42,14 +42,18 @@ void iterators()
 
     v.clear(); // Erase the entire vector.
 
-    cout << v.empty();
+    // cout << v.empty();
 
 
     // Example
-    vector<int> arr = {1, 2, 3, 4, 3};
+    vector<int> arr = {1, 2, 3, 4, 5};
     vector<int>::iterator ptr;
-    for (ptr = arr.begin(); ptr < arr.end(); ptr++)
+    for (ptr = arr.begin() + 1; ptr < arr.end() ; ptr++)
     {
         cout << *ptr << " ";
     }
+}
+
+int main(){
+    iterators();
 }
