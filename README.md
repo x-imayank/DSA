@@ -1,2 +1,2 @@
 # DSA
- Now starting DSA journey after completing basic c++
+ Now we are starting DSA journey after completing basic c++
